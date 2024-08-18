@@ -1,0 +1,45 @@
+img {
+padding-top: 5px;
+padding-right: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+border: solid 1px black;
+background-color: black;
+}
+button {
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+background: color #c4cfd8;;
+color: black;
+padding: 3px 10px;
+}
+button:hover {
+    background-color: gray;
+}
+button:active {
+    background-color:black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+hr {
+width: 100%;
+border: 2px solid black;
+}
+body {
+    background-image: url('IMG_1916.jpg');
+    background-size: 1500px 500px;
+    background-repeat: no-repeat;
+    
+}
+div {
+    max-width: 768px;
+    max-height: 1024px;
+    margin: auto;
+    display: block;
+}
